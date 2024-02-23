@@ -7,3 +7,6 @@ Practical labs of the module Advanced databases
 - Comment détecter et éliminer les variables de colonne qui ne comportent qu'une seule valeur.
 - Comment identifier et traiter les variables de colonne contenant très peu de valeurs uniques.
 - Comment repérer et éliminer les lignes contenant des observations en double
+
+
+ ### 1. TP02 : manipulate semi-structured JSON - XML data (with Python)

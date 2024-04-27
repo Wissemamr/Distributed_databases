@@ -1,0 +1,43 @@
+<!DOCTYPE CV SYSTEM "cv.dtd">
+
+<!ELEMENT CV (Header, AboutMe, HardSkills, Education, SoftSkills, Contacts, Projects, Experience, Interests)>
+
+<!ELEMENT Header (Name, Title)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT AboutMe (#PCDATA)>
+
+<!ELEMENT HardSkills (Skill+)>
+<!ELEMENT Skill (#PCDATA)>
+
+<!ELEMENT Education (School+)>
+<!ELEMENT School (Name, Degree, Major, GraduationYear)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Degree (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT GraduationYear (#PCDATA)>
+
+<!ELEMENT SoftSkills (Skill+)>
+<!ELEMENT Skill (#PCDATA)>
+
+<!ELEMENT Contacts (Email, LinkedIn)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT LinkedIn (#PCDATA)>
+
+<!ELEMENT Projects (Project+)>
+<!ELEMENT Project (Name, Role, Description, Year)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Role (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+
+<!ELEMENT Experience (Position+)>
+<!ELEMENT Position (Title, Company, Responsibilities, Duration)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Company (#PCDATA)>
+<!ELEMENT Responsibilities (#PCDATA)>
+<!ELEMENT Duration (#PCDATA)>
+
+<!ELEMENT Interests (Interest+)>
+<!ELEMENT Interest (#PCDATA)>

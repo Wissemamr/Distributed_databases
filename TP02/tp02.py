@@ -32,3 +32,7 @@ if DEBUG:
     # Load the iris dataset from the csv file
     iris_df = pd.read_csv("iris.csv")
     print(f"*** iris.csv of shape {iris_df.shape} loaded successfully ***")
+
+
+# XML to JSON
+# convert an xml file to json
